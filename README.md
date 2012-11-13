@@ -1,4 +1,4 @@
-sinatra-basic
-=============
+themakerssummit.com
+===================
 
-A Sinatra starter app that works on Heroku.
+A quick Sinatra-based app deployed to heroku.

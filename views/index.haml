@@ -1,0 +1,19 @@
+.row#header
+  .container
+    %form#validation-form(action="#" method="post")
+      .step
+        %ul.service-list(styel="display:block;")
+          %li.span2
+            %input(class="services" type="checkbox" name="services[]" value="AppIDSvc" validate="required:true, minlength:2") AppIDSvc
+          %li.span2
+            %input(class="services" type="checkbox" name="services[]" value="AppIDSvc") AppIDSvc
+          %li.span2
+            %input(class="services" type="checkbox" name="services[]" value="AppIDSvc") AppIDSvc
+          %li.span2
+            %input(class="services" type="checkbox" name="services[]" value="AppIDSvc") AppIDSvc
+          %li.span2 
+            %input(class="services" type="checkbox" name="services[]" value="AppIDSvc") AppIDSvc
+          %li.span2
+            %input(class="services" type="checkbox" name="services[]" value="AppIDSvc") AppIDSvc
+            %label(for="spam[]" class="error") Please select at least two types of spam.
+        %input(name="submit" type="submit" value="go")
