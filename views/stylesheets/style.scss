@@ -1,8 +1,10 @@
 @import "compass_twitter_bootstrap";
-@import "compass_twitter_bootstrap_responsive";
 
 form#validation-form {
-  .error {
+  .span2 {
+    float:none;
+  }
+  label.error {
     display: none;
   }
 }

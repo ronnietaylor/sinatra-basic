@@ -1,4 +1,4 @@
 $(document).ready(function() {
-  console.log('app.js file example');
+  $.metadata.setType("attr", "validate");
   $('#validation-form').validate();
 });
